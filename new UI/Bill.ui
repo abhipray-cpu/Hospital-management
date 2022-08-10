@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1311</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="MainWidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-1</y>
+      <width>1311</width>
+      <height>1001</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLineEdit" name="PidEntry">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>40</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+selection-color: rgb(255, 0, 127);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="PIDLabel">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>50</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);color: rgb(0,0,0);</string>
+     </property>
+     <property name="text">
+      <string>Patient ID</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PayBtn">
+     <property name="geometry">
+      <rect>
+       <x>1170</x>
+       <y>30</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0,86,0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Pay</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>160</y>
+       <width>1001</width>
+       <height>751</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="showGrid">
+      <bool>false</bool>
+     </property>
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <row>
+      <property name="text">
+       <string>Day1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day3</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day4</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day5</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day6</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day7</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day8</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day9</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day10</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day11</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day12</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day13</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day14</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day15</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day16</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day17</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day18</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day19</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day20</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day21</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day22</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day23</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day24</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day25</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day26</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day27</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day28</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day29</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Day31</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Day</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>255</red>
+        <green>5</green>
+        <blue>101</blue>
+       </color>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Room Charge</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Medication Cost</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Operation Charge</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Private Nurse</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>GST</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>SGST</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Total</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="background">
+       <brush brushstyle="NoBrush">
+        <color alpha="255">
+         <red>255</red>
+         <green>10</green>
+         <blue>116</blue>
+        </color>
+       </brush>
+      </property>
+      <property name="foreground">
+       <brush brushstyle="NoBrush">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="AddRow">
+     <property name="geometry">
+      <rect>
+       <x>1190</x>
+       <y>940</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0,86,0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Add Row</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="AmountLabel">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>100</y>
+       <width>501</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);color: rgb(0,0,0);</string>
+     </property>
+     <property name="text">
+      <string> ₹ 69696</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>1170</x>
+       <y>110</y>
+       <width>101</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0,86,0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Refresh</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>40</y>
+       <width>101</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0,86,0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Search</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="BillLabel">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>100</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);color: rgb(0,0,0);</string>
+     </property>
+     <property name="text">
+      <string>Total Bill</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>291</width>
+       <height>1001</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 86, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="lineWidth">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>271</width>
+        <height>781</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="patient_record">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+</string>
+         </property>
+         <property name="text">
+          <string>Patient Record</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="login">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Login</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="staff_record">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Staff Record</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="vehichle">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Vehichle</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="rooms">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Rooms</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="billing">
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Billing</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="admit">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Admit</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="staff_duty">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Staff Duty</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="revenue">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Revenue</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="hospital_admin">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>271</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Hospital Admin</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
